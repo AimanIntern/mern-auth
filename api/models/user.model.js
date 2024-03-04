@@ -15,9 +15,9 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    ProfilePicture:{
+    profilePicture:{
         type: String,
-        default: "https://www.pngall.com/wp-/uploads/5/Profile.png",  
+        default: "https://www.pngall.com/wp-content/uploads/5/Profile.png",  
     },
    
 }, {timestamps: true});
